@@ -1,4 +1,4 @@
-import { useState } from "react"
+import React, { useState } from "react"
 import { Invoice, LineItem } from "../types"
 
 const emptyItem = (): LineItem => ({
