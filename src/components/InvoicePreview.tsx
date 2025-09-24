@@ -1,5 +1,6 @@
 import { useRef } from "react"
 import { Invoice } from "../types"
+import React from "react"
 import html2pdf from "html2pdf.js"
 
 export default function InvoicePreview({ invoice }: { invoice: Invoice }) {
